@@ -24,7 +24,7 @@ version can do the following:
 %setup -q
 
 %build
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
