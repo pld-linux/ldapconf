@@ -6,7 +6,7 @@ Copyright:	GPL
 Group:		linuxconf/modules
 Source:		ftp://ftp.terminator.net/pub/trolldom/dist/SOURCES/%{name}-%{version}.src.tar.gz
 URL:		http://www.terminator.net/ldapconf/
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	linuxconf
 
 %description
