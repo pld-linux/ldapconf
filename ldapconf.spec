@@ -9,6 +9,7 @@ Group(de):	Applikationen/System
 Group(pl):	Aplikacje/System
 Source0:	ftp://ftp.terminator.net/pub/trolldom/dist/SOURCES/%{name}-%{version}.src.tar.gz
 URL:		http://www.terminator.net/ldapconf/
+BuildRequires:	linuxconf-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Prereq:		linuxconf
 
@@ -39,8 +40,9 @@ katalogowych. To jest wersja alfa, nie produkcyjna. Potrafi:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-export RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/linuxconf
+
+export RPM_BUILD_ROOT
 %{__make} install
 
 %clean
@@ -51,7 +53,7 @@ linuxconf --setmod ldapconf
 
 %postun
 if [ "$1" = "0" ] ; then
-linuxconf --unsetmod ldapconf
+	linuxconf --unsetmod ldapconf
 fi
 
 %files
