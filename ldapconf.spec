@@ -43,5 +43,3 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 /usr/lib/linuxconf
-
-%changelog
