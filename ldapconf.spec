@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	ftp://ftp.terminator.net/pub/trolldom/dist/SOURCES/%{name}-%{version}.src.tar.gz
+# Source0-md5:	7b84b1dc634d871436fbf7086d2a06ec
 URL:		http://www.terminator.net/ldapconf/
 BuildRequires:	linuxconf-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
