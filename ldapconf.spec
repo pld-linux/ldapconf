@@ -5,8 +5,6 @@ Version:	0.8_1.15r3
 Release:	1
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	ftp://ftp.terminator.net/pub/trolldom/dist/SOURCES/%{name}-%{version}.src.tar.gz
 URL:		http://www.terminator.net/ldapconf/
 BuildRequires:	linuxconf-devel
