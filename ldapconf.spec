@@ -31,7 +31,7 @@ rm -rf $RPM_BUILD_ROOT
 export RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/linuxconf
-make install
+%{__make} install
 
 %post
 linuxconf --setmod ldapconf
