@@ -1,13 +1,14 @@
-Summary:Linuxconf LDAP configurator designed for Linux Directory Services
-Name:      ldapconf
-Version:   0.8_1.15r3
-Release:   1
-Source:    ldapconf-0.8_1.15r3.src.tar.gz
-Copyright: GPL
-Group:     linuxconf/modules
-BuildRoot: /tmp/rpm-ldapconf-root
-requires: linuxconf
-# requires: 0.8_1.15r3
+Summary:	Linuxconf LDAP configurator designed for Linux Directory Services
+Name:		ldapconf
+Version:	0.8_1.15r3
+Release:	1
+Copyright:	GPL
+Group:		linuxconf/modules
+Source:		ftp://ftp.terminator.net/pub/trolldom/dist/SOURCES/%{name}-%{version}.src.tar.gz
+URL:		http://www.terminator.net/ldapconf/
+BuildRoot:	/tmp/%{name}-%{version}-root
+Requires:	linuxconf
+
 %description
 Linuxconf LDAP configurator designed for Linux Directory Services
 This is a development alpha version, not for production.
@@ -17,10 +18,9 @@ The current version can do the following:
     Read and write /etc/ldap/ldap.sec
     Read and write /etc/nsswitch.conf
     List all available PAM modules and services
-More info on http://www.terminator.net/ldapconf/
 
 %prep
-%setup
+%setup -q
 
 %build
 make
