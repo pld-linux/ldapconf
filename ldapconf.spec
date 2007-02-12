@@ -1,5 +1,5 @@
 Summary:	Linuxconf LDAP configurator designed for Linux Directory Services
-Summary(pl):	Konfigurator LDAP do linuxconfa - do linuksowych us³ug katalogowych
+Summary(pl.UTF-8):   Konfigurator LDAP do linuxconfa - do linuksowych usÅ‚ug katalogowych
 Name:		ldapconf
 Version:	0.8_1.15r3
 Release:	1
@@ -22,14 +22,14 @@ version can do the following:
  - read and write /etc/nsswitch.conf
  - list all available PAM modules and services.
 
-%description -l pl
-Konfigurator LDAP do Linuxconfa, przeznaczony do linuksowych us³ug
+%description -l pl.UTF-8
+Konfigurator LDAP do Linuxconfa, przeznaczony do linuksowych usÅ‚ug
 katalogowych. To jest wersja alfa, nie produkcyjna. Potrafi:
-- odczytywaæ i zapisywaæ /etc/ldap/slapd.conf
-- odczytywaæ i zapisywaæ /etc/ldap/ldap.conf
-- odczytywaæ i zapisywaæ /etc/ldap/ldap.sec
-- odczytywaæ i zapisywaæ /etc/nsswitch.conf
-- wypisywaæ dostêpne modu³y i serwisy PAM.
+- odczytywaÄ‡ i zapisywaÄ‡ /etc/ldap/slapd.conf
+- odczytywaÄ‡ i zapisywaÄ‡ /etc/ldap/ldap.conf
+- odczytywaÄ‡ i zapisywaÄ‡ /etc/ldap/ldap.sec
+- odczytywaÄ‡ i zapisywaÄ‡ /etc/nsswitch.conf
+- wypisywaÄ‡ dostÄ™pne moduÅ‚y i serwisy PAM.
 
 %prep
 %setup -q
