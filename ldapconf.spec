@@ -1,5 +1,5 @@
 Summary:	Linuxconf LDAP configurator designed for Linux Directory Services
-Summary(pl.UTF-8):   Konfigurator LDAP do linuxconfa - do linuksowych usług katalogowych
+Summary(pl.UTF-8):	Konfigurator LDAP do linuxconfa - do linuksowych usług katalogowych
 Name:		ldapconf
 Version:	0.8_1.15r3
 Release:	1
